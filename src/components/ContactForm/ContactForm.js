@@ -17,7 +17,7 @@ const FormError = ({ name }) => {
   );
 };
 
-export const ContactForm = ({ onSubmit }) => {
+const ContactForm = ({ onSubmit }) => {
   const initialValues = {
     name: '',
     number: '',
@@ -61,3 +61,5 @@ export const ContactForm = ({ onSubmit }) => {
     </Formik>
   );
 };
+
+export default ContactForm;
